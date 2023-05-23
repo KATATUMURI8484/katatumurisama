@@ -1,0 +1,47 @@
+header {
+    background-color: #333333;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 0px;
+  }
+
+  header.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+
+  .kesu {
+    margin: 0px;
+  }
+  
+  body {
+    margin: 0px;
+    padding-top: 60px;
+    background-color: #eeeff0;
+  }
+  .flex{
+  display: flex8;
+  justify-content:center;
+  align-items: center;
+  position: relative;
+  left: 30px;
+}
+.flex>p{
+  width: 49%;
+}
+
+h1 {
+  padding: 5px;
+}
+
+li {
+ padding: 0px;
+}
+
+div {
+  padding: 15px;
+}
