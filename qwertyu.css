@@ -51,6 +51,11 @@ div {
   font-size: 150%;
 }
 
-.color {
+.linkcolor {
   color: #fff;
+  text-decoration: none
+}
+
+.headlink {
+  text-decoration: none;
 }
