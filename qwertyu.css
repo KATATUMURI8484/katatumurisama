@@ -25,15 +25,11 @@ body {
 }
 
 .flex {
-  display: flex8;
+  display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
   left: 30px;
-}
-
-.flex>p {
-  width: 49%;
 }
 
 h1 {
@@ -47,13 +43,13 @@ li {
 
 div {
   padding: 15px;
-  display: flex;
 }
 
 .oogazou {
   font-size: 150%;
-  padding: 0px;
   margin: 3%;
+  padding: 0px;
+  display: flex;
 }
 
 .linkcolor {
@@ -63,4 +59,9 @@ div {
 
 .meigen{
   font-size: 150%;
+}
+
+.katagazou{
+ padding: 0px;
+ margin: 0%
 }
