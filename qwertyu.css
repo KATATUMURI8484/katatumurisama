@@ -61,15 +61,18 @@ div {
   font-size: 400%;
   font-family: "Zen Kaku Gothic Antique Regular";
   padding: 0%;
-  margin-top: 0%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  line-height: 110px;
+  letter-spacing: -3px;
 }
 
 .katagazou{
- padding: 0px;
- margin: 0%
+  padding: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 h1{
   font-size: 300%;
-
 }
