@@ -36,7 +36,7 @@ h1 {
   padding: 5px;
 }
 
-li {
+.header {
   padding: 0px;
   display: inline-block;
 }
@@ -77,3 +77,53 @@ h1{
   font-size: 300%;
   margin-bottom: 0px;
 }
+
+.newslist{
+  list-style: none outside;
+  margin: 0%;
+  padding: 0%;
+}
+
+.newslist .news a{
+  display: flex;
+  flex-wrap: wrap;
+  flex-wrap: nowrap;
+  text-decoration: none;
+  color: black;
+  border-bottom: 1px solid #333333;
+  padding: 20px 20px;
+}
+
+.newslist .news:first-child{
+  border-top: 1px solid #333333;
+}
+
+.newslist .news .newstitle{
+  margin: 0%;
+  min-width: 120px;
+  font-size: 16px;
+  color: #333333;
+  padding: 0 20px 0 0;
+}
+
+.newslist .news .hiniti{
+  margin: 0;
+  width: 150px;
+}
+
+.newslist .news a:hover .newstitle{
+  color: ffffff;
+}
+
+@media screen and (max-width: 767px){
+  .newslist .news a{
+  flex-wrap: wrap;
+  }
+    .newslist .news .hiniti{
+min-width: 100px;
+  }
+  .newslist .news .newstitle{
+    margin-top: 10px;
+  }
+}
+
