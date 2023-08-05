@@ -32,9 +32,18 @@ body {
   left: 30px;
 }
 
-h1 {
-  padding: 5px;
+.newsheader {
+  padding: 5px;  
+  font-size: 300%;
+  margin-bottom: 0px;
 }
+
+.shopheader {
+  padding: 5px;  
+  font-size: 300%;
+  margin-bottom: 0px;
+}
+
 
 .header {
   padding: 0px;
@@ -73,10 +82,6 @@ div {
   margin-bottom: 0px;
 }
 
-h1{
-  font-size: 300%;
-  margin-bottom: 0px;
-}
 
 .newslist{
   list-style: none outside;
@@ -165,4 +170,8 @@ min-width: 100px;
   border-top: solid 1px;
   transform: rotate(35deg);
   transform-origin: left top;
+}
+
+div{
+
 }
