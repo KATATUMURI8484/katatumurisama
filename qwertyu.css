@@ -172,6 +172,22 @@ min-width: 100px;
   transform-origin: left top;
 }
 
-div{
- color: #333333;
+.divsoto {
+  background-color: #eeeff0;
+}
+
+.divnaka {
+ background-color: #333333;
+}
+
+.divmoji {
+  color: #fff;
+}
+
+.divkajyou {
+ padding-left: 0;
+}
+
+.divshop {
+  list-style: none;
 }
