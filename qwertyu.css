@@ -177,7 +177,8 @@ min-width: 100px;
 }
 
 .divnaka {
- background-color: #333333;
+ background-color: #777777;
+ border-radius: 40px
 }
 
 .divmoji {
@@ -185,11 +186,13 @@ min-width: 100px;
 }
 
 .divkajyou {
- padding-left: 0;
+ padding-left: 3px;
 }
 
 .divshop {
   list-style: none;
+  text-decoration: none;
+  color: #fff;
 }
 
 .kounyubotan{
@@ -201,3 +204,14 @@ min-width: 100px;
   font-size: 300%;
   margin-bottom: 0px;
 }
+
+.newsdivnaka {
+  color: #fff;
+  background-color: #777777;
+  border-radius: 20px
+ }
+
+ .newsdivkajyou {
+  padding-left: 3px;
+  margin: 0px;
+ }
