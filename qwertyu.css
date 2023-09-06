@@ -174,6 +174,7 @@ min-width: 100px;
 
 .divsoto {
   background-color: #eeeff0;
+  padding-bottom: 0px;
 }
 
 .divnaka {
@@ -214,4 +215,14 @@ min-width: 100px;
  .newsdivkajyou {
   padding-left: 3px;
   margin: 0px;
+ }
+
+ .botan {
+  text-decoration: none;
+ }
+
+ footer{
+  background-color: #333333;
+  color: #fff;
+  text-align: center;
  }
