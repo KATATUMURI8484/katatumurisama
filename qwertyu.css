@@ -304,4 +304,14 @@ min-width: 100px;
   }
 }
 
- 
+.iamti{
+  font-size: 26px;
+  margin-bottom: 0;
+  padding: 10px;
+  padding-bottom: 0;
+}
+
+.voca{
+  width: 496px; height: 279px;
+  border-radius: 20px;
+}
