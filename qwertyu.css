@@ -1,10 +1,24 @@
 header {
   background-color: #333333;
   color: #fff;
+  text-decoration: none;
   position: fixed;
   top: 0;
   width: 100%;
   padding: 0px;
+}
+
+@media screen and (max-width: 767px){
+  header {
+    background-color: #333333;
+    color: #fff;
+    text-decoration: none;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 0px;
+    font-size: 80%;
+  }
 }
 
 header.sticky {
@@ -66,6 +80,13 @@ div {
   text-decoration: none;
 }
 
+@media screen and (max-width: 767px){
+  .linkcolor {
+    color: #fff;
+    text-decoration: none;
+  }
+}
+
 .meigen{
   font-size: 100px;
   font-family: "Zen Kaku Gothic Antique Regular";
@@ -74,6 +95,18 @@ div {
   margin-bottom: 0px;
   line-height: 110px;
   letter-spacing: -3px;
+}
+
+@media screen and (max-width: 767px){
+  .meigen{
+    font-size: 60px;
+    font-family: "Zen Kaku Gothic Antique Regular";
+    padding: 0%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: 65px;
+    letter-spacing: -3px;
+  }
 }
 
 .katagazou{
@@ -182,8 +215,27 @@ min-width: 100px;
  border-radius: 40px
 }
 
+@media screen and (max-width: 767px){
+  .divnaka{
+    background-color: #777777;
+    border-radius: 40px;
+  }
+}
+
 .divmoji {
   color: #fff;
+}
+
+.divmoji1{
+  color: #fff;
+  font-size: 50px;
+}
+
+@media screen and (max-width: 767px){
+  .divmoji1{
+    color: #fff;
+    font-size: 30px;
+  }
 }
 
 .divkajyou {
@@ -226,3 +278,30 @@ min-width: 100px;
   color: #fff;
   text-align: center;
  }
+
+ .yokosuku{
+  overflow-x: auto;
+  white-space: nowrap;
+ }
+
+ .Copyright{
+  font-size: 100%;
+ }
+
+ @media screen and (max-width: 767px){
+  .Copyright{
+    font-size: 100%;
+  }
+}
+
+.shopgazou{
+  width: 100%;
+}
+
+@media screen and (max-width: 767px){
+  .shopgazou{
+    width: 100%;
+  }
+}
+
+ 
