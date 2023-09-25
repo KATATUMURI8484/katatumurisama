@@ -1,4 +1,3 @@
-window.addEventListener('scroll', function () {
-    var header = doucment.querySelector('header');
-    header.classList.toggle('sticky', window.scrolly > 0);
+$(".han").click(function(){
+ $(this).toggleclass('active')
 });

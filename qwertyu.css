@@ -1,4 +1,4 @@
-header {
+.kesu {
   background-color: #333333;
   color: #fff;
   text-decoration: none;
@@ -6,10 +6,11 @@ header {
   top: 0;
   width: 100%;
   padding: 0px;
+  margin: 0px;
 }
 
 @media screen and (max-width: 767px){
-  header {
+  .kesu {
     background-color: #333333;
     color: #fff;
     text-decoration: none;
@@ -28,14 +29,14 @@ header.sticky {
   width: 100%;
 }
 
-.kesu {
-  margin: 0px;
-}
-
 body {
   margin: 0px;
   padding-top: 60px;
   background-color: #eeeff0;
+}
+
+h1{
+  padding: 10px;
 }
 
 .flex {
@@ -315,3 +316,123 @@ min-width: 100px;
   width: 496px; height: 279px;
   border-radius: 20px;
 }
+
+.ajya{
+ border: 1px solid #c6c9cc;
+ margin-bottom: 24px;
+ margin: 0 5px 12px 5px;
+ color: #666;
+ border-radius: 8px;
+}
+
+.ajya img{
+  width: 308px;
+  height: 44px;
+}
+
+.doit{
+  display: block;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+.ajya header h1{
+  margin: 0;
+}
+
+.hai{
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  padding: 0;
+}
+
+.nari{
+  overflow-clip-margin: content-box;
+  overflow: clip;
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+}
+
+.mail{
+  font-size: 19px;
+  text-decoration: underline;
+  color: #0942fd;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.tel{
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+}
+
+.simasu{
+  margin: 0;
+  padding: 10px;
+  border-bottom: 1px solid #bbd0e3;
+  background: #fefbe7;
+  display: none;
+}
+
+.han{
+  position: relative;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  background: #fff;
+}
+
+.han span{
+  display: inline-block;
+  transition: all .4s;
+  position: absolute;
+  left: 13px;
+  height: 2px;
+  background-color: #666;
+}
+
+.han span:nth-of-type(1){
+  top: 22px;
+  width: 50%;
+}
+
+.han span:nth-of-type(2){
+  top: 29px;
+  width: 30%;
+}
+
+.han.active span:nth-of-type(1){
+  top: 20px;
+  left: 16px;
+  transform: translateY(-6px)rotate(-45deg);
+  width: 35%;
+}
+
+.han.active span:nth-of-type(2){
+  top: 32%;
+  left: 16%;
+  transform: translateY(-6px)rotate(45deg);
+  width: 35%;
+}
+
+.nnn{
+  padding-bottom: 10000%;
+}
+
+.divnakase {
+  margin-right: 10px;
+  color: #fff;
+  font-size: 23px;
+  display: inline-block;
+  background-color: #777777;
+  border-radius: 40px;
+ }
+ 
+ @media screen and (max-width: 767px){
+   .divnakase{
+     background-color: #777777;
+     border-radius: 40px;
+   }
+ }
