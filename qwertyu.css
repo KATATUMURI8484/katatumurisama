@@ -1,6 +1,6 @@
 .kesu {
   background-color: #333333;
-  color: #fff;
+  color: white;
   text-decoration: none;
   position: fixed;
   top: 0;
@@ -12,7 +12,31 @@
 @media screen and (max-width: 767px){
   .kesu {
     background-color: #333333;
-    color: #fff;
+    color: white;
+    text-decoration: none;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 0px;
+    font-size: 80%;
+  }
+}
+
+.kura {
+  background-color: #eeeff0;
+  color: black;
+  text-decoration: none;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+
+@media screen and (max-width: 767px){
+  .kura {
+    background-color: #eeeff0;
+    color: rgb(0, 0, 0);
     text-decoration: none;
     position: fixed;
     top: 0;
@@ -33,6 +57,7 @@ body {
   margin: 0px;
   padding-top: 60px;
   background-color: #eeeff0;
+  color: black;
 }
 
 h1{
@@ -77,14 +102,14 @@ div {
 }
 
 .linkcolor {
-  color: #fff;
   text-decoration: none;
+  color: #fff;
 }
 
 @media screen and (max-width: 767px){
   .linkcolor {
-    color: #fff;
     text-decoration: none;
+    color: #fff;
   }
 }
 
@@ -93,7 +118,7 @@ div {
   font-family: "Zen Kaku Gothic Antique Regular";
   padding: 0%;
   margin-top: 0px;
-  margin-bottom: 0px;
+  margin-bottom: 3px;
   line-height: 110px;
   letter-spacing: -3px;
 }
@@ -207,7 +232,6 @@ min-width: 100px;
 }
 
 .divsoto {
-  background-color: #eeeff0;
   padding-bottom: 0px;
 }
 

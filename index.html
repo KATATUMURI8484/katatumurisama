@@ -9,25 +9,26 @@
   <link rel="stylesheet" href="qwertyu.css" type="text/css">
 </head>
 
-<body>
+<body id="aa">
 <a href="#" id="peagetop"><i class="tuitekurubotan"></i>上ニック</a>
-  <header class="kesu">
+  <header id="bb" class="kesu">
     <nav>
-      <ul>
-        <li class="header"><a style="font-size: 200%;" class="linkcolor"href="index.html">かたつむり</a></li>
+      <ul id="cc">
+        <li class="header"><a style="font-size: 200%;" class="linkcolor"  href="index.html">かたつむり</a></li>
         <li class="header"><a class="linkcolor" href="qwertyui.html">主な活動</a></li>
         <li class="header"><a class="linkcolor" href="shop.html">ギャラリー</a></li>
         <li class="header"><a class="linkcolor" href="#">Q&A</a></li>
+        <button class="header"><a class="linkcolor" onclick="osu()">ダークモード</a></button>
       </ul>
     </nav>
-    <!--<div class="han"><span></span><span></span></div>-->
   </header>
     <a class="katagazou" href="https://www.google.com/?q=ここには何もないよ（笑）">
-      <img style="width: 100%;" src="白ヘッダー.png" alt="R-18だからないよ☆">
+      <img style="width: 100%;" src="白ヘッダー.png" alt="ないよ☆">
     </a>
   <P class="meigen">かたつむりの<br>webサイトにようこそ</P>
-  <div class="divsoto"></div>
-  <p class="newsheader">ブログ</p>
+    <input type="text" id="form1">
+    <button onclick="check()">いいいいい</button>
+  <p class="newsheader">Blog</p>
   <div class="divsoto">
     <a class="botan" href="news.html">
     <div class="newsdivnaka">
@@ -79,11 +80,24 @@
       <div></div>
       <footer>
         <div></div>
-        <p class="Copyright">&copy;KATATUMURI</p>
+        <p class="Copyright">&copy;Katatumuri8484</p>
         <div></div>
       </footer>
-      <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-      <script src="qwerty.js"></script>
+      <script>
+      function check(){
+    let form1 = document.getElementById("form1")
+    alert(aleform1.value + "あああああ");
+      }
+      function osu() {
+        let aa = document.getElementById("aa")
+        aa.style.backgroundColor = "#333333";
+        aa.style.color = "white"
+        let bb = document.getElementById("bb")
+        /*bb.style.backgroundColor = "#eeeff0"
+        bb.style.color = "black"*/
+        bb.className = "kura"
+      }
+      </script>
 </body>
 
 </html>
