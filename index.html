@@ -13,19 +13,19 @@
 <a href="#" id="peagetop"><i class="tuitekurubotan"></i>上ニック</a>
   <header id="bb" class="kesu">
     <nav>
-      <ul id="cc">
-        <li class="header"><a style="font-size: 200%;" class="linkcolor"  href="index.html">かたつむり</a></li>
-        <li class="header"><a class="linkcolor" href="qwertyui.html">主な活動</a></li>
-        <li class="header"><a class="linkcolor" href="shop.html">ギャラリー</a></li>
-        <li class="header"><a class="linkcolor" href="#">Q&A</a></li>
-        <button class="header"><a class="linkcolor" onclick="osu()">ダークモード</a></button>
+      <ul>
+        <li class="header"><a id="hc1" style="font-size: 200%;" class="linkcolor" href="index.html">かたつむり</a></li>
+        <li class="header"><a id="hc2" class="linkcolor" href="qwertyui.html">主な活動</a></li>
+        <li class="header"><a id="hc3" class="linkcolor" href="shop.html">ギャラリー</a></li>
+        <li class="header"><a id="hc4" class="linkcolor" href="#">Q&A</a></li>
+        <button class="header"><a id="hc5" class="linkcolor" onclick="osu()">ダークモード</a></button>
       </ul>
     </nav>
   </header>
     <a class="katagazou" href="https://www.google.com/?q=ここには何もないよ（笑）">
       <img style="width: 100%;" src="白ヘッダー.png" alt="ないよ☆">
     </a>
-  <P class="meigen">かたつむりの<br>webサイトにようこそ</P>
+  <P class="meigen">かたつむりの<br>Webサイトにようこそ</P>
     <input type="text" id="form1">
     <button onclick="check()">いいいいい</button>
   <p class="newsheader">Blog</p>
@@ -90,12 +90,20 @@
       }
       function osu() {
         let aa = document.getElementById("aa")
-        aa.style.backgroundColor = "#333333";
+        aa.style.backgroundColor = "black";
         aa.style.color = "white"
         let bb = document.getElementById("bb")
-        /*bb.style.backgroundColor = "#eeeff0"
-        bb.style.color = "black"*/
         bb.className = "kura"
+        let hc1 = document.getElementById("hc1")
+        hc1.style.color = "black"
+        let hc2 = document.getElementById("hc2")
+        hc2.style.color = "black"
+        let hc3 = document.getElementById("hc3")
+        hc3.style.color = "black"
+        let hc4 = document.getElementById("hc4")
+        hc4.style.color = "black"
+        let hc5 = document.getElementById("hc5")
+        hc5.style.color = "black"
       }
       </script>
 </body>

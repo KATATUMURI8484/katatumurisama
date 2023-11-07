@@ -8,7 +8,7 @@
         <link rel="stylesheet" href="qwertyu.css" type="text/css">
       </head>
 
-<body>
+<body id="aa">
         <header class="kesu">
             <nav>
               <ul>
@@ -17,6 +17,7 @@
                 <li class="header"><a class="linkcolor" href="qwertyui.html">主な活動</a></li>
                 <li class="header"><a class="linkcolor" href="shop.html">ギャラリー</a></li>
                 <li class="header"><a class="linkcolor" href="#">Q&A</a></li>
+                <button class="header"><a id="hc5" class="linkcolor" onclick="osu()">ダークモード</a></button>
               </ul>
             </nav>
           </header>
@@ -59,4 +60,23 @@
 </dl>
 </section>
 </body>--->
+<script>
+    function osu() {
+    let aa = document.getElementById("aa")
+    aa.style.backgroundColor = "black";
+    aa.style.color = "white"
+    let bb = document.getElementById("bb")
+    bb.className = "kura"
+    let hc1 = document.getElementById("hc1")
+    hc1.style.color = "black"
+    let hc2 = document.getElementById("hc2")
+    hc2.style.color = "black"
+    let hc3 = document.getElementById("hc3")
+    hc3.style.color = "black"
+    let hc4 = document.getElementById("hc4")
+    hc4.style.color = "black"
+    let hc5 = document.getElementById("hc5")
+    hc5.style.color = "black"
+    }
+  </script>
 </html>

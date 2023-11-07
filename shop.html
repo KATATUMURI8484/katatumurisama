@@ -2,75 +2,87 @@
 <html>
 
 <head>
-  <title>かたつむりギャラリー</title>
+  <title>かたつむりのwebサイト</title>
   <link rel="icon" href="keiryou4-3.jpg">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width">
   <link rel="stylesheet" href="qwertyu.css" type="text/css">
 </head>
 
-<body>
-  <header class="kesu">
+<body id="aa">
+<a href="#" id="peagetop"><i class="tuitekurubotan"></i>上ニック</a>
+  <header id="bb" class="kesu">
     <nav>
       <ul>
-        <li class="header"><a style="font-size: 200%;" class="linkcolor"href="index.html">かたつむり</a></li>
-        <li class="header"><a class="linkcolor" href="qwertyui.html">主な活動</a></li>
-        <li class="header"><a class="linkcolor" href="shop.html">ギャラリー</a></li>
-        <li class="header"><a class="linkcolor" href="#">Q&A</a></li>
+        <li class="header"><a id="hc1" style="font-size: 200%;" class="linkcolor" href="index.html">かたつむり</a></li>
+        <li class="header"><a id="hc2" class="linkcolor" href="qwertyui.html">主な活動</a></li>
+        <li class="header"><a id="hc3" class="linkcolor" href="shop.html">ギャラリー</a></li>
+        <li class="header"><a id="hc4" class="linkcolor" href="#">Q&A</a></li>
+        <button class="header"><a id="hc5" class="linkcolor" onclick="osu()">ダークモード</a></button>
       </ul>
     </nav>
   </header>
-  <p class="shopheader">Katatumuri gallery</p>
+  <p class="newsheader">Katatumuri gallery</p>
   <div class="divsoto">
-    <div class="divnaka">
-      <div class="divnaka">
-        <Div class="divmoji">
+    <a class="botan" href="shoppic.html">
+    <div class="newsdivnaka">
           <nav>
-            <ul class="divkajyou">
-              <li class="divshop"><a class="divmoji1">消しゴムマジック</a></li>
-              <li class="divshop">消しゴムで描いたから</li>
+            <ul class="newsdivkajyou">
+              <li class="divshop">Picture</li>
+              <li class="divshop" style="font-size: 23px;">絵</li>
             </ul>
           </nav>
-        </Div>
-        <img class="shopgazou" src="消しゴムマジック.png">
-      </div>
-    </div>
-    <div class="divsoto"></div>
-    <div class="divnaka">
-      <div class="divnaka">
-        <Div class="divmoji">
-          <nav>
-            <ul class="divkajyou">
-              <li class="divshop"><a class="divmoji1">サメ</a></li>
-              <li class="divshop">か</li>
-            </ul>
-          </nav>
-        </Div>
-        <img class="shopgazou" src="かたつむりの名画.png">
-      </div>
-    </div>
-    <div class="divsoto"></div>
-    <div class="divnaka">
-      <div class="divnaka">
-        <Div class="divmoji">
-          <nav>
-            <ul class="divkajyou">
-              <li class="divshop"><a class="divmoji1">サメ</a></li>
-              <li class="divshop">かたつむりが適当に描いただけ、特に意味はない。</li>
-            </ul>
-          </nav>
-        </Div>
-        <img class="shopgazou" src="かたつむりの名画.png">
-      </div>
     </div>
   </div>
-  <div class="divsoto">
-    <div class="divnaka">
-      <div class="divnaka">
-      <iframe src="https://scratch.mit.edu/projects/903281191/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe> 
+  </a>
+    <div class="divsoto">
+      <a class="botan" href="shoppoto.html">
+      <div class="newsdivnaka">
+            <nav>
+              <ul class="newsdivkajyou">
+                <li class="divshop">Photo</li>
+                <li class="divshop" style="font-size: 23px;">写真</li>
+              </ul>
+            </nav>
+      </div>
     </div>
-    </div>
-  </div>
+  </a>
+      <div class="divsoto">
+        <a class="botan" href="news.html">
+        <div class="newsdivnaka">
+              <nav>
+                <ul class="newsdivkajyou">
+                  <li class="divshop">Other</li>
+                  <li class="divshop" style="font-size: 23px;">その他</li>
+                </ul>
+              </nav>
+        </div>
+      </div>
+    </a>
+      <div></div>
+      <div class="divsoto" style="padding-bottom: 100%;"></div>
+      <footer>
+        <div></div>
+        <p class="Copyright">&copy;Katatumuri8484</p>
+        <div></div>
+      </footer>
+  <script>
+    function osu() {
+      let aa = document.getElementById("aa")
+      aa.style.backgroundColor = "black";
+      aa.style.color = "white"
+      let bb = document.getElementById("bb")
+      bb.className = "kura"
+      let hc1 = document.getElementById("hc1")
+      hc1.style.color = "black"
+      let hc2 = document.getElementById("hc2")
+      hc2.style.color = "black"
+      let hc3 = document.getElementById("hc3")
+      hc3.style.color = "black"
+      let hc4 = document.getElementById("hc4")
+      hc4.style.color = "black"
+      let hc5 = document.getElementById("hc5")
+      hc5.style.color = "black"
+    }
+    </script>
 </body>
-
-</html>
