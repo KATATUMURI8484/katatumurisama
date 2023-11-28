@@ -19,6 +19,16 @@
         <li class="header"><a id="hc3" class="linkcolor" href="shop.html">ギャラリー</a></li>
         <li class="header"><a id="hc4" class="linkcolor" href="#">Q&A</a></li>
         <button class="header"><a id="hc5" class="linkcolor" onclick="osu()">ダークモード</a></button>
+        <nav class="nau naun" id="naa">
+          <ul class="nau nuu">
+            <li class="itm"><a href="">主な活動</a></li>
+          </ul>
+        </nav>
+        <button class="hanh han ugo" id="hanb">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
       </ul>
     </nav>
   </header>
@@ -31,7 +41,7 @@
     <p class="newsheader">YouTube</p>
     <p class="mati">やってないよ</p>
     <div class="yokosuku">
-    <iframe class="voca" src="https://www.youtube.com/channel/?list=UUuh4mt42fcg1Pi7OhLHZ22Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe class="voca" src="https://youtube.com/embed/?list=UUuh4mt42fcg1Pi7OhLHZ22Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
   <p class="newsheader">Blog</p>
   <div class="divsoto">
@@ -109,6 +119,12 @@
         hc4.style.color = "black"
         let hc5 = document.getElementById("hc5")
         hc5.style.color = "black"
+        const han = document.querySelector('#hanb')
+        const nau = document.querySelector('#naa')
+        han.addEventListener('click', function(){
+          han.classList.toggle('ugo');
+          nau.classList.toggle('ugo');
+        });
       }
       </script>
 </body>
