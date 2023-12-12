@@ -19,25 +19,27 @@
         <li class="header"><a id="hc3" class="linkcolor" href="shop.html">ギャラリー</a></li>
         <li class="header"><a id="hc4" class="linkcolor" href="#">Q&A</a></li>
         <button class="header"><a id="hc5" class="linkcolor" onclick="osu()">ダークモード</a></button>
-        <nav class="nau naun" id="naa">
+      </ul>
+      </nav> 
+      </header>
+        <nav class="noau naun" id="naa">
           <ul class="nau nuu">
-            <li class="itm"><a href="">主な活動</a></li>
+            <li class="itm"><a href="qwertyui.html">主な活動</a></li>
+            <li class="itm"><a href="shop.html">ギャラリー</a></li>
+            <li class="itm"><a href="#">Q&A</a></li>
           </ul>
         </nav>
-        <button class="hanh han ugo" id="hanb">
+        <button class="hanh han" id="hanb">
           <span></span>
           <span></span>
           <span></span>
         </button>
-      </ul>
-    </nav>
-  </header>
     <a class="katagazou" href="https://www.google.com/?q=ここには何もないよ（笑）">
-      <img style="width: 100%;" src="白ヘッダー.png" alt="ないよ☆">
+      <img style="width: 100%;" src="白ヘッダー.svg" alt="ないよ☆">
     </a>
   <P class="meigen">かたつむりの<br>Webサイトにようこそ</P>
-    <input type="text" id="form1">
-    <button onclick="check()">いいいいい</button>
+    <!---<input type="text" id="form1">
+    <button onclick="check()">いいいいい</button>--->
     <p class="newsheader">YouTube</p>
     <p class="mati">やってないよ</p>
     <div class="yokosuku">
@@ -122,11 +124,15 @@
         const han = document.querySelector('#hanb')
         const nau = document.querySelector('#naa')
         han.addEventListener('click', function(){
+          console.log('aaaa');
           han.classList.toggle('ugo');
           nau.classList.toggle('ugo');
         });
       }
       </script>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Zen+Kaku+Gothic+New&display=swap" rel="stylesheet">
 </body>
 
 </html>
