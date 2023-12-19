@@ -302,7 +302,6 @@ min-width: 100px;
  footer{
   background-color: #333333;
   color: #fff;
-  text-align: center;
  }
 
  .yokosuku{
@@ -310,15 +309,17 @@ min-width: 100px;
   white-space: nowrap;
  }
 
- .Copyright{
-  font-size: 100%;
+ .footermo{
+  padding: 3px;
+  padding-left: 10px;
+  padding-bottom: 0;
+  display: block;
+  color: #fff;
  }
 
- @media screen and (max-width: 767px){
-  .Copyright{
-    font-size: 100%;
-  }
-}
+ .Copyright{
+  text-align: center;
+ }
 
 .shopgazou{
   width: 100%;
