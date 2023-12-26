@@ -428,7 +428,16 @@ min-width: 100px;
    }
  }
 
- .hanh {
+ .qqa .aaq{
+  padding: 3px;
+  
+ }
+
+ .qqa{
+  padding: 3px;
+ }
+
+ /*.hanh {
   width: 48px;
   height: 100%;
  }
@@ -461,7 +470,7 @@ min-width: 100px;
  }
 
  .noau{
-  /*position: static;*/
+  position: static;
   transform: initial;
   background-color: inherit;
   height: inherit;
@@ -493,6 +502,24 @@ min-width: 100px;
  }
 
  .han span{
+  width: 100%;
+  height: 1px;
+  background-color: #ffffff;
+  position: relative;
+  transition: ease .4s;
+  display: block;
+ }
+
+ .han{
+  width: 100%;
+  height: 1px;
+  background-color: #ffffff;
+  position: relative;
+  transition: ease .4s;
+  display: block;
+ }
+
+ span{
   width: 100%;
   height: 1px;
   background-color: #ffffff;
