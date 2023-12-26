@@ -435,6 +435,13 @@ min-width: 100px;
 
  .qqa{
   padding: 3px;
+  font-size: 20px;
+ }
+ .aaq{
+  padding: 3px;
+  padding-top: 0;
+  border: 0;
+  font-size: 20px;
  }
 
  /*.hanh {
